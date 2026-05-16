@@ -1,0 +1,141 @@
+{
+  "rootNodes": [
+    "artboard_1"
+  ],
+
+  "imageUrl": "https://example.com/layout.png",
+
+  "nodes": {
+
+    "artboard_1": {
+      "id": "artboard_1",
+      "type": "artboard",
+      "name": "Instagram Post",
+      "width": 1080,
+      "height": 1080,
+
+      "data": {
+        "preset": "instagram-post",
+        "backgroundColor": "#ffffff"
+      },
+
+      "children": [
+        "headline_1",
+        "subtitle_1",
+        "badge_1",
+        "product_1"
+      ]
+    },
+
+    "headline_1": {
+      "id": "headline_1",
+      "type": "text",
+      "name": "Headline",
+
+      "x": 120,
+      "y": 150,
+      "width": 800,
+      "height": 120,
+
+      "nx": 0.11,
+      "ny": 0.14,
+      "nw": 0.74,
+      "nh": 0.11,
+
+      "data": {
+        "content": "Luxury Comfort, Surprisingly Attainable"
+      },
+
+      "style": {
+        "visual": {
+          "fontSize": 72,
+          "fontWeight": 700,
+          "color": {
+            "type": "solid",
+            "value": "#ffffff"
+          }
+        }
+      }
+    },
+
+    "subtitle_1": {
+      "id": "subtitle_1",
+      "type": "text",
+      "name": "Subtitle",
+
+      "x": 180,
+      "y": 340,
+      "width": 700,
+      "height": 50,
+
+      "nx": 0.16,
+      "ny": 0.31,
+      "nw": 0.64,
+      "nh": 0.05,
+
+      "data": {
+        "content": "Comfort that defines modern living."
+      },
+
+      "style": {
+        "visual": {
+          "fontSize": 42,
+          "fontWeight": 600,
+          "color": {
+            "type": "solid",
+            "value": "#ffffff"
+          }
+        }
+      }
+    },
+
+    "badge_1": {
+      "id": "badge_1",
+      "type": "shape",
+      "name": "Offer Badge",
+
+      "x": 90,
+      "y": 420,
+      "width": 160,
+      "height": 160,
+
+      "nx": 0.08,
+      "ny": 0.39,
+      "nw": 0.14,
+      "nh": 0.14,
+
+      "data": {
+        "shapeType": "circle"
+      },
+
+      "style": {
+        "visual": {
+          "fill": {
+            "type": "solid",
+            "value": "#F4CF1B"
+          }
+        }
+      }
+    },
+
+    "product_1": {
+      "id": "product_1",
+      "type": "image",
+      "name": "Product Image",
+
+      "x": 120,
+      "y": 560,
+      "width": 820,
+      "height": 340,
+
+      "nx": 0.11,
+      "ny": 0.52,
+      "nw": 0.76,
+      "nh": 0.31,
+
+      "data": {
+        "sourceUrl": "https://example.com/product.png"
+      }
+    }
+  }
+}
